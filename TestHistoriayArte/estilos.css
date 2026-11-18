@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #f5ead9;
+    color: #4b3021;
+}
+
+
+header {
+    background-color: #6b4632;
+    color: #fff8ed;
+    text-align: center;
+    padding: 45px 20px;
+    border-bottom: 5px solid #c49a58;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.contenedor {
+    width: 85%;
+    max-width: 950px;
+    margin: 35px auto;
+}
+
+.introduccion {
+    background-color: #fffaf2;
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    border: 1px solid #ddc8a7;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.introduccion h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #754c32;
+}
+
+.introduccion p {
+    font-size: 17px;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.pregunta {
+    background-color: #fffaf2;
+    border: 1px solid #d8c0a0;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.07);
+}
+
+.pregunta h3 {
+    background-color: #76503a;
+    color: white;
+    padding: 17px;
+    font-size: 19px;
+}
+
+.respuestas {
+    padding: 18px 25px;
+}
+
+.respuestas label {
+    display: block;
+    font-size: 17px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.respuestas input {
+    margin-right: 10px;
+    accent-color: #9b6b35;
+}
+
+button {
+    display: block;
+    margin: 35px auto;
+    padding: 16px 45px;
+    background-color: #95642f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b4632;
+}
+
+.resultado {
+    background-color: #fffaf2;
+    border: 2px solid #c49a58;
+    border-radius: 12px;
+    text-align: center;
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.resultado h2 {
+    color: #95642f;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.resultado p {
+    font-size: 19px;
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+
+    .contenedor {
+        width: 94%;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    .introduccion h2 {
+        font-size: 23px;
+    }
+
+    .pregunta h3 {
+        font-size: 17px;
+    }
+
+}
